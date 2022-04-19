@@ -2,26 +2,27 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'David Martins', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'David Martins Website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'David Martins',
+  subtitle: "I'm a Full-Stack Web Developer.",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'pic.JPG',
+  paragraphOne:
+    'Motivated Programmer. Engaging demeanor known for working well in deadline-driven environments. Quickly masters new software packages and hardware technologies.',
+  paragraphTwo: ' ',
+  paragraphThree: ' ',
+  resume: 'https://github.com/DavidMartins00/DavidMartins00/blob/main/David_Martins_Resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -29,29 +30,56 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Mercearia Sorraia',
+    info: 'Website for local gourmet grocery store',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://www.mrsorraia.com/',
+    repo: 'https://github.com/DavidMartins00/mercearia', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Mercearia Sorraia',
+    info: 'Website for local gourmet grocery store',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://www.mrsorraia.com/',
+    repo: 'https://github.com/DavidMartins00/mercearia', // if no repo, the button will not show up
+  },
+];
+
+// LANGUAGE DATA
+export const languagesData = [
+  {
+    id: nanoid(),
+    name: 'Python',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    name: 'PHP',
+  },
+  {
+    id: nanoid(),
+    name: 'JavaScript',
+  },
+  {
+    id: nanoid(),
+    name: 'HTML',
+  },
+  {
+    id: nanoid(),
+    name: 'CSS',
+  },
+  {
+    id: nanoid(),
+    name: 'POSTMAN',
+  },
+  {
+    id: nanoid(),
+    name: 'Git',
+  },
+  {
+    id: nanoid(),
+    name: 'GitHub',
   },
 ];
 
@@ -59,7 +87,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'dev@dmartins.me',
 };
 
 // FOOTER DATA
@@ -67,28 +95,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/david-martins-184652203/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/DavidMartins00',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
