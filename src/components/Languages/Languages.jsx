@@ -27,10 +27,10 @@ const Languages = () => {
           <Title title="Languages & Tools" />
           <div className="row">
             {languages.map((language) => {
-              const { name, id } = language;
+              const { img, name, id } = language;
 
               return (
-                <Col lg={4} sm={12}>
+                <Col lg={2} sm={12}>
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
@@ -38,11 +38,9 @@ const Languages = () => {
                     delay={500}
                     distance="30px"
                   >
-                    <div className="project-wrapper__text">
-                      <h3 key={id} className="project-wrapper__text-title">
-                        {name}
-                      </h3>
-                    </div>
+                    <Col>
+                      <img key={id} width="80px" alt={name} src={img} />
+                    </Col>
                   </Fade>
                 </Col>
               );
