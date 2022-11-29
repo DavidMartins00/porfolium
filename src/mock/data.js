@@ -125,6 +125,27 @@ export const languagesData = [
     name: 'JetBrains',
     img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg',
   },
+  {
+    id: nanoid(),
+    name: 'Postgresql',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
+  },
+  {
+    id: nanoid(),
+    name: 'Firebase',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg',
+  },
+  {
+    id: nanoid(),
+    name: 'GoogleCloud',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg',
+  },
+  {
+    id: nanoid(),
+    name: 'Linux',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg',
+  },
+  
 ];
 
 // CONTACT DATA
